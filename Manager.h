@@ -15,7 +15,7 @@ private:
 
 public:
     
-    Manager();
+    Manager(int id=0, std::string firstName="~",std::string lastName="~", int birthYear=0);
     int getId()const;
     int getBirthYear() const;
     std::string getFirstName()const;

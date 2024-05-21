@@ -2,7 +2,7 @@
 #include <string.h>
 #include <iostream>
 
-Manager::Manager():id(0),birthYear(0),firstName("~"),lastName("~")
+Manager::Manager(int id, std::string firstName,std::string lastName, int birthYear):id(id),firstName(firstName),lastName(lastName),birthYear(birthYear)
 {}
 std::string Manager::getFirstName() const
 {

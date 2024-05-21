@@ -5,7 +5,7 @@
 
 
 Shop::Shop()
-    : manager(), name("~"), closedDay(Day::Saturday), isOnline(false) {}
+    : manager(), name("~"), closedDay(Day::Sunday), isOnline(false) {}
 
 Shop::Shop(const Manager& manager, const std::string& name, Day closedDay, bool isOnline)
     : manager(manager), name(name), closedDay(closedDay), isOnline(isOnline) {}
